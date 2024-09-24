@@ -11,12 +11,14 @@ public class Main {
         // начальный счет
 
 
-        { if (replenishment > 1000) {
+        { 
+            if (replenishment > 1000) {
 
             System.out.printf("Начислено бонусов: " + (replenishment / 100) + ", остаток на счете: " + (initialAccount + replenishment / 100 + replenishment));
-        }
+            }
         else
-            System.out.println("Остаток на счете: " + (initialAccount + replenishment)); }
+            System.out.println("Остаток на счете: " + (initialAccount + replenishment)); 
+        }
         // Объявляете переменные для входных данных и
         // параметров программы: начального счёта,
         // суммы пополнения и тп
